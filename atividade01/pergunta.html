@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="UTF-8"/>
+     <title>Tarefa 01</title>
+     
+ </head>
+ <body>
+ <h1>Universidade</h1>
+ 	<form action="/form" method="post">
+    <div>
+        <label for="nome">Nome:<br></label>
+        <input type="text" id="nome" value="Nome Completo" />
+    </div>
+    <div>
+        <label for="email">Email:<br></label>
+        <input type="email" id="email" value="nome@email.com" />
+    </div>
+    <div>
+    	<label for="regiao">Região onde mora:<br>
+    		<select name="reglist" form="regform">
+  <option value="Nordeste">Nordeste</option>
+  <option value="Sudeste">Sudeste</option>
+  <option value="Sul">Sul</option>
+  <option value="Norte">Norte</option>
+  <option value="CentroOeste">CentroOeste</option>
+</select>
+    	</label>
+    </div>
+    <div>
+        <label for="msg">Mensagem:<br></label>
+        <textarea id="msg"></textarea>
+        <br><input type="submit" value="Submit">
+    </div>
+</form>
+<a href="index.html">Voltar a pagina inicial</a>
+
+ </body>
+ </html>
