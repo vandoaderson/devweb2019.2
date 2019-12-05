@@ -8,3 +8,5 @@
 
 [Pratica de vue](pratica-vue/index.html)<br>
 
+[Projeto Final](ProjetoFinal/index.html)<br>
+
